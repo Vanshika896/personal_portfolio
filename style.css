@@ -1,0 +1,280 @@
+section{
+    display: grid;
+    place-items: center;
+    align-content: center;
+     min-height: 40vh; 
+
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1A1A1D;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+main hr {
+    border: 0;
+    background-color: white;
+    height: 1.6px;
+    margin: 60px 84px;
+    
+}
+h2{
+    color: #c3073f;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 73px;
+    background-color: #4E4E50;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+    transition: 5s;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #E7717d;
+}
+
+nav ul li a:hover {
+    font-size: 1.15rem;
+    color: rgb(247, 229, 195);
+}
+
+.left {
+    font-size: 2rem;
+    font-weight:600;
+}
+
+.right {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 0;
+    align-items: center;
+
+}
+
+.firstSection>div {
+    width: 40%;
+}
+
+.leftSection {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 80px;
+}
+
+.secondSection {
+    margin: 60px 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+     font-size: 1.1rem;
+     width: 80%;
+     opacity: 0;
+     transition: opacity 2s ease-in;
+}
+.secondSection.appear{
+    opacity: 1;
+}
+
+.secondSection>div {
+    width: 60%;
+    justify-content: space-around;
+}
+
+.rightSection img {
+    width: 80%;
+    margin: 10px;
+
+}
+
+.purple {
+    color: #d51d66;
+}
+
+#element {
+    color: #d51d66;
+}
+html{
+    scroll-behavior: smooth;
+    scroll-padding: 10rem;
+}
+.Headings {
+    text-align: center;
+    color: #E7717d;
+    font-size: 1.8rem;
+    /* animation-duration: 2s;
+    animation-name: slidein;
+}
+@keyframes slidein{
+    from {
+        margin-left:50% ;
+    }
+    to{
+        margin-left:0%;
+    } */
+}
+
+footer {
+    background-color: #4E4E50;
+    height: 233px;
+    row-gap: 2rem;
+
+}
+
+.footer {
+    display: flex;
+    padding: 50px 123px;
+    justify-content: space-evenly;
+}
+footer h3{
+    color: #E7717d;
+}
+footer ul {
+    list-style: none;
+}
+
+footer-first {
+    padding-top: 30%;
+}
+
+.footer-social {
+    font-size: 1.8rem;
+    margin-right: var(--mb-1);
+    color: white;
+    padding: 9px;
+    display: inline-block;
+    justify-content: space-around;
+}
+
+i {
+    padding: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    /* font-size: 1.9rem; */
+    color: rgb(247, 229, 195);
+    
+}
+
+.SkillsSection ul {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: start;
+}
+
+.SkillsSection ul li {
+    display: flex;
+    list-style: none;
+
+}
+
+.EducationSection img {
+    width: 30%;
+    margin-bottom: 0%;
+
+}
+
+.EducationSection {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.eatmoreimages img {
+    width: 32%;
+    margin: 0;
+}
+
+.ProjectSection h2{
+ font-size: 1.7rem;
+ text-align: center;
+}
+
+
+.project1 {
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 0;
+    align-items: center;
+
+}
+
+.project1>div {
+    font-size: 150%;
+    width: 30%;
+}
+
+.from-left{
+    grid-column: 2/3;
+    transform:translateX(-50%) ;
+}
+
+.from-right{
+    grid-column: 3/4;
+    transform:translateX(50%) ;
+}
+.from-left,
+.from-right{
+    transition:
+    opacity 1s ease-in,
+     transform 800ms ease-in;
+    opacity: 0;
+}
+.from-left.appear,
+.from-right.appear{
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.P1section {
+    display: flex;
+    width: 40%;
+
+}
+
+.P1Section ul {
+    /*  */
+    /* display: inline; */
+    justify-content: space-evenly;
+    text-align: start;
+
+
+}
+
+.P1Section ul li {
+    font-size: 1.1rem;
+    display: inline;
+    margin: 60px 0;
+}
+
+.P1Section ul li p {
+    font-size: 1.1rem;
+}
+
+
